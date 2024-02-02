@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-#ayni grafik uzerinde karsilastirma yapma
+#aynı grafik üzerinde karşılaştırma yapma
 
 #day one, the age and speed of 13 cars:
 x = np.array([5,7,8,7,2,17,2,9,4,11,12,9,6])

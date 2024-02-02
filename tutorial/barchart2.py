@@ -9,6 +9,6 @@ bars = plt.bar(labels,values)
 bars[0].set_hatch("/")
 bars[1].set_hatch("o")
 bars[2].set_hatch("*")
-#sutunlarin icini tarar
+#sütunların içini tarar
 
 plt.show()

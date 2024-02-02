@@ -3,11 +3,11 @@ import numpy as np
 import pandas as pd
 
 labels = ["a","b","c"]
-#sirasiyla sutun grafiginin isimleri
+#sırasıyla sütun grafiğinin isimleri
 values = [1,4,2]
-#sirasiyla sutun grafiginin degerleri
+#sırasıyla sütun grafiğinin değerleri
 
 plt.bar(labels,values)
-#sutun grafigi olusturur
+#sütun grafiği oluşturur
 
 plt.show()

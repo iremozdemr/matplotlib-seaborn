@@ -11,24 +11,24 @@ x = [1,2,3,4]
 y = [2,4,6,8]
 
 plt.plot(x, y, label="2x", linestyle="--", linewidth=5, color="pink", marker=".",markersize=10)
-#label cizginin ne cizgisi oldugunu gosterir
-#linestyle cizgiyi surekli yerine cizgili yapar
-#linewidth cizginin kalinligini gosterir
-#color cizginin rengini gosterir
-#marker cizgideki noktaları gosterir
-#markersize cizgideki noktaların buyuklugunu gosterir
+#label çizginin ne çizgisi olduğunu gösterir
+#linestyle çizgiyi sürekli yerine çizgili yapar
+#linewidth çizginin kalınlığını gösterir
+#color çizginin rengini gösterir
+#marker çizgideki noktaları gösterir
+#markersize çizgideki noktaların büyüklüğünü gösterir
 
 #plt.plot([1,2,3,4],[2,4,6,8])
 
 plt.suptitle("my first graph")
-#buyuk baslik
+#büyük başlık
 plt.title("graph1")
-#kucuk baslik
+#küçük başlık
 
 plt.xlabel("x axis!")
-#x ekseninin basligi
+#x ekseninin başlığı
 plt.ylabel("y axis!")
-#y ekseninin basligi
+#y ekseninin başlığı
 
 plt.xticks([0,1,2,3,4])
 plt.yticks([0,2,4,6,8])
@@ -38,21 +38,21 @@ y2 = x2**2
 print(x2)
 print(y2)
 plt.plot(x2,y2,label="x^2")
-#ikinci cizgiyi ekleme
+#ikinci çizgiyi ekleme
 
 plt.legend()
-#labelin gosterilmesi icin yazilmasi zorunlu
+#labelin gösterilmesi için yazılması zorunlu
 
 plt.grid()
-#grafigi kareli hale getirir
+#grafiği kareli hale getirir
 #default olarak axis="both"
 
 #plt.grid(axis="x",linestyle="--",color="pink")
-#dikey cizgileri degistirir
+#dikey çizgileri değiştirir
 #plt.grid(axis="y",linestyle="--",color="green")
-#yatay cizgileri degistirir
+#yatay çizgileri değiştirir
 
 plt.savefig("myfirstgraph.png")
-#grafigi kodun bulundugu dosyaya kaydeder
+#grafiği kodun bulunduğu dosyaya kaydeder
 
 plt.show()
